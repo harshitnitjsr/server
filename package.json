@@ -5,10 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "client": "npm start --prefix ./client",
-    "server": "nodemon server.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "harshit shrivastav",
